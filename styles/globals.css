@@ -35,6 +35,16 @@ footer {
   color: #777;
   border-top: 1px solid #eaeaea;
 }
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ /* width: 10px; */
+}
+.icons .audioMack{
+  width: 30px;
+}
 .not-found {
   text-align: center;
 }
