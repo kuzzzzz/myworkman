@@ -1,24 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
 body {
-  background: #f2f2f2;
-  color: #333;
+  background: #a1d9f5;
+  color: #01374b;
   font-family: "Nunito";
+  margin: 0;
 }
 a {
-  color: #333;
+  color: #01374b;
+  font-weight: 600;
   text-decoration: none;
 }
 .content {
   max-width: 960px;
   margin: 0 auto;
+  padding: 50px 100px 100px 100px;
+  background-color: whitesmoke;
 }
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
+  max-width: 960px;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   border-bottom: 1px solid #ddd;
 }
 nav a {
@@ -40,15 +45,37 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
- /* width: 10px; */
+  /* width: 10px; */
 }
-.icons .audioMack{
+.icons .audioMack {
   width: 30px;
 }
 .not-found {
   text-align: center;
 }
-.not-found a{
+.not-found a {
   color: #4979ff;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    padding: 25px;
+    text-align: justify;
+    background-color: whitesmoke;
+  }
+
+  iframe {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  nav {
+    align-items: center;
+    margin: 10px;
+    font-size: small;
+  }
+  nav .logo {
+    width: 100px;
+  }
 }

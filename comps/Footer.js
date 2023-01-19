@@ -31,7 +31,7 @@ const Footer = () => {
           <img src="/audiomack.svg"></img>
         </a>
       </div>
-      <p>apologies for the poor ui site is still under developrment</p>
+     
     </footer>
   );
 };

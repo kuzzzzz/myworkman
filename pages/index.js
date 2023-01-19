@@ -11,8 +11,8 @@ export default function Home() {
         <title>My Work Man Org| Home</title>
         <meta name="keywords" content="ninjas" />
       </Head>
-      <div>
-        <h1 className={styles.title}>Homepage</h1>
+      <div className="mainDiv">
+        <h1 className={styles.title}>My Work-Man</h1>
         <p className={styles.text}>
           The My-Work-Man Organization is an initiative that strives to connect
           pure bread entrepreneurs who want to take their business to the next
