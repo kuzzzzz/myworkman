@@ -1,6 +1,6 @@
-import styles from '../../styles/Ninjas.module.css'
+import styles from "../../styles/Ninjas.module.css";
 // import generateRssFeed from "../../utils/generateRSSFeed";
-import Link from 'next/link'
+import Link from "next/link";
 
 // export const getStaticProps = async () => {
 // //   const res = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -19,8 +19,22 @@ const Ninjas = ({ ninjas }) => {
     <div>
       <h1>Shows</h1>
       <iframe
+        src="https://anchor.fm/myworkman/embed/episodes/My-Work-Man-Show-Ep-V-e1up5eu"
+        height="120px"
+        width="500px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+      <iframe
         src="https://anchor.fm/myworkman/embed/episodes/My-Work-Man-Show-Ep-IV-e1udt4d"
-        height="102px"
+        height="120px"
+        width="500px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+      <iframe
+        src="https://anchor.fm/myworkman/embed/episodes/My-Work-Man-Show-Ep-IV-e1udt4d"
+        height="120px"
         width="500px"
         frameborder="0"
         scrolling="no"
@@ -48,6 +62,6 @@ const Ninjas = ({ ninjas }) => {
       ></iframe>
     </div>
   );
-}
- 
+};
+
 export default Ninjas;
