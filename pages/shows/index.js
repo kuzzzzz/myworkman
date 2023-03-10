@@ -19,6 +19,13 @@ const Ninjas = ({ ninjas }) => {
     <div>
       <h1>Shows</h1>
       <iframe
+        src="https://podcasters.spotify.com/pod/show/myworkman/embed/episodes/My-Work-Man-Show-Ep-IX-e206pvg"
+        height="120px"
+        width="500px"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+      <iframe
         src="https://anchor.fm/myworkman/embed/episodes/My-Work-Man-Show-Ep-VIII-e1vqp0t"
         height="120px"
         width="500px"
